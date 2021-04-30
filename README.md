@@ -1,4 +1,4 @@
-[![bdmnpq](https://circleci.com/gh/bdmnpq/udacity-ml-microservice.svg?style=svg)](https://app.circleci.com/pipelines/github/bdmnpq/udacity-ml-microservice)
+[![CircleCI](https://circleci.com/gh/CircleCI/udacity-ml-microservice.svg?style=svg)](https://app.circleci.com/pipelines/github/bdmnpq/udacity-ml-microservice)
 
 ## Project Overview
 
