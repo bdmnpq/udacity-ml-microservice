@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![bdmnpq](https://circleci.com/gh/bdmnpq/udacity-ml-microservice.svg?style=svg)](https://app.circleci.com/pipelines/github/bdmnpq/udacity-ml-microservice)
 
 ## Project Overview
 
