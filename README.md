@@ -19,14 +19,25 @@ Your project goal is to operationalize this working, machine learning microservi
 
 You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
 
-**The final implementation of the project will showcase your abilities to operationalize production microservices.**
-
 ---
 
 ## Setup the Environment
-
-* Create a virtualenv and activate it
+* Run git clone 'https://github.com/bdmnpq/udacity-ml-microservice.git`
+* Run `python3 -m venv ~/.devops`
+* Run `source ~/.devops/bin/activate`
 * Run `make install` to install the necessary dependencies
+
+### Install Docker
+* Create docker account
+* Install docker
+* Run 'docker --version'
+
+### Install Kubernetes
+* Install VirtualBox
+* Install minikube
+
+### Configure Kubernetes to Run Locally
+* run `minikube start`
 
 ### Running `app.py`
 
@@ -40,3 +51,6 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+## File list
+
