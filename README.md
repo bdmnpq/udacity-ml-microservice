@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/bdmnpq/udacity-ml-microservice.svg?style=svg)](https://circleci.com/gh/bdmnpq/udacity-ml-microservice/)
 
 ## Project Overview
 
@@ -19,14 +19,25 @@ Your project goal is to operationalize this working, machine learning microservi
 
 You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
 
-**The final implementation of the project will showcase your abilities to operationalize production microservices.**
-
 ---
 
 ## Setup the Environment
-
-* Create a virtualenv and activate it
+* Run git clone 'https://github.com/bdmnpq/udacity-ml-microservice.git`
+* Run `python3 -m venv ~/.devops`
+* Run `source ~/.devops/bin/activate`
 * Run `make install` to install the necessary dependencies
+
+### Install Docker
+* Create docker account
+* Install docker
+* Run 'docker --version'
+
+### Install Kubernetes
+* Install VirtualBox
+* Install minikube
+
+### Configure Kubernetes to Run Locally
+* run `minikube start`
 
 ### Running `app.py`
 
@@ -40,3 +51,16 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+## File list
+* Dockerfile: a text document that contains all the commands a user could call on the command line to assemble an image
+* Makefile: a text document that defines set of tasks to be executed
+* app.py: a python script to predict housing prices
+* make_prediction.sh: a bash file to make prediction
+* requirement.txt: a text document that contains all the required packages
+* run_docker.sh: a bash script to run app.py in Docker
+* run_kubernetes.sh: a bash script to run app.py in Kubernetes
+* upload_docker.sh: a bash script to upload docker image into docker repo
+* model_data: a directory that contains input for prediction
+* output_txt_files: log output from both docker and Kubernetes run
+
