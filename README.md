@@ -62,5 +62,5 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * run_kubernetes.sh: a bash script to run app.py in Kubernetes
 * upload_docker.sh: a bash script to upload docker image into docker repo
 * model_data: a directory that contains input for prediction
-* output_txt_files: log output from both docker and Kubernetes' run
+* output_txt_files: log output from both docker and Kubernetes run
 
